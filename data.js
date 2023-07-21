@@ -1,6 +1,7 @@
 const burgersData = [
   {
-    image: "../assets/images/1.png",
+    image:
+      "https://drive.google.com/file/d/165fw_Jst7Loj3QVyryj4agzrIg3f3TDy/view?usp=sharing",
     title: "Cheddar & Bacon Burger",
     text: "Crispy beef patty, bun, tomato, Cheddar cheese, bacon, red onion, iceberg lettuce, mayonnaise, ketchup, cheese sauce",
     price: 8,
