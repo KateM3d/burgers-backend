@@ -46,3 +46,18 @@
 {"level":"info","message":"Created new order: ORD-1758847338409-0001","service":"burgers-api","timestamp":"2025-09-25 20:42:18"}
 {"level":"info","message":"Retrieved 1 orders","service":"burgers-api","timestamp":"2025-09-25 20:42:22"}
 {"level":"info","message":"Retrieved 9 burgers","service":"burgers-api","timestamp":"2025-09-25 20:42:26"}
+{"level":"info","message":"Retrieved 12 burgers","service":"burgers-api","timestamp":"2025-09-25 20:49:02"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:49:21"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}

@@ -76,6 +76,81 @@ app.use(
   })
 );
 
+/**
+ * @swagger
+ * /:
+ *   get:
+ *     summary: API Welcome
+ *     description: Welcome endpoint with API information and available endpoints
+ *     tags: [General]
+ *     responses:
+ *       200:
+ *         description: API information
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "🍔 Welcome to the Burgers API!"
+ *                 version:
+ *                   type: string
+ *                   example: "1.0.0"
+ *                 status:
+ *                   type: string
+ *                   example: "operational"
+ *                 endpoints:
+ *                   type: object
+ *                   properties:
+ *                     documentation:
+ *                       type: string
+ *                       example: "/api-docs"
+ *                     graphql:
+ *                       type: string
+ *                       example: "/graphql"
+ *                     health:
+ *                       type: string
+ *                       example: "/health"
+ *                     burgers:
+ *                       type: string
+ *                       example: "/api/burgers"
+ *                     orders:
+ *                       type: string
+ *                       example: "/api/orders"
+ *                 quickStart:
+ *                   type: object
+ *                   properties:
+ *                     getBurgers:
+ *                       type: string
+ *                       example: "GET /api/burgers"
+ *                     createOrder:
+ *                       type: string
+ *                       example: "POST /api/orders"
+ *                     viewDocs:
+ *                       type: string
+ *                       example: "GET /api-docs"
+ */
+app.get("/", (req, res) => {
+  res.json({
+    message: "🍔 Welcome to the Burgers API!",
+    version: "1.0.0",
+    status: "operational",
+    endpoints: {
+      documentation: "/api-docs",
+      graphql: "/graphql",
+      health: "/health",
+      burgers: "/api/burgers",
+      orders: "/api/orders",
+    },
+    quickStart: {
+      getBurgers: "GET /api/burgers",
+      createOrder: "POST /api/orders",
+      viewDocs: "GET /api-docs",
+    },
+  });
+});
+
 // API Routes
 app.use("/api/burgers", burgerRoutes);
 app.use("/api/orders", orderRoutes);
