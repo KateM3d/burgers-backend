@@ -1,0 +1,48 @@
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:37:01"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:37:01"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:37:01"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:37:01"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:37:01"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:37:31"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:37:44"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:37:44"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:37:44"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:37:44"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:37:44"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:38:14"}
+{"level":"info","message":"Connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:39:30"}
+{"level":"info","message":"Cleared existing burgers","service":"burgers-api","timestamp":"2025-09-25 20:39:30"}
+{"level":"info","message":"Connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:40:03"}
+{"level":"info","message":"Cleared existing burgers","service":"burgers-api","timestamp":"2025-09-25 20:40:03"}
+{"level":"info","message":"Connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:40:15"}
+{"level":"info","message":"Cleared existing burgers","service":"burgers-api","timestamp":"2025-09-25 20:40:15"}
+{"level":"info","message":"Connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:40:24"}
+{"level":"info","message":"Cleared existing burgers","service":"burgers-api","timestamp":"2025-09-25 20:40:24"}
+{"level":"info","message":"Seeded 12 burgers to the database","service":"burgers-api","timestamp":"2025-09-25 20:40:24"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:40:57"}
+{"level":"info","message":"Retrieved 12 burgers","service":"burgers-api","timestamp":"2025-09-25 20:41:08"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:41:43"}
+{"_message":"Order validation failed","errors":{"orderNumber":{"kind":"required","message":"Path `orderNumber` is required.","name":"ValidatorError","path":"orderNumber","properties":{"message":"Path `orderNumber` is required.","path":"orderNumber","type":"required"}},"totalAmount":{"kind":"required","message":"Path `totalAmount` is required.","name":"ValidatorError","path":"totalAmount","properties":{"message":"Path `totalAmount` is required.","path":"totalAmount","type":"required"}}},"level":"error","message":"Error creating order: Order validation failed: totalAmount: Path `totalAmount` is required., orderNumber: Path `orderNumber` is required.","service":"burgers-api","stack":"ValidationError: Order validation failed: totalAmount: Path `totalAmount` is required., orderNumber: Path `orderNumber` is required.\n    at Document.invalidate (/Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/document.js:3358:32)\n    at /Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/document.js:3119:17\n    at /Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/schemaType.js:1416:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-09-25 20:41:49"}
+{"_message":"Order validation failed","errors":{"orderNumber":{"kind":"required","message":"Path `orderNumber` is required.","name":"ValidatorError","path":"orderNumber","properties":{"message":"Path `orderNumber` is required.","path":"orderNumber","type":"required"}},"totalAmount":{"kind":"required","message":"Path `totalAmount` is required.","name":"ValidatorError","path":"totalAmount","properties":{"message":"Path `totalAmount` is required.","path":"totalAmount","type":"required"}}},"level":"error","message":"Error creating order: Order validation failed: totalAmount: Path `totalAmount` is required., orderNumber: Path `orderNumber` is required.","service":"burgers-api","stack":"ValidationError: Order validation failed: totalAmount: Path `totalAmount` is required., orderNumber: Path `orderNumber` is required.\n    at Document.invalidate (/Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/document.js:3358:32)\n    at /Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/document.js:3119:17\n    at /Users/katemed/Desktop/apps/study/burgers-backend/node_modules/mongoose/lib/schemaType.js:1416:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-09-25 20:41:59"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:42:12"}
+{"level":"info","message":"Created new order: ORD-1758847338409-0001","service":"burgers-api","timestamp":"2025-09-25 20:42:18"}
+{"level":"info","message":"Retrieved 1 orders","service":"burgers-api","timestamp":"2025-09-25 20:42:22"}
+{"level":"info","message":"Retrieved 9 burgers","service":"burgers-api","timestamp":"2025-09-25 20:42:26"}
