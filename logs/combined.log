@@ -61,3 +61,10 @@
 {"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
 {"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
 {"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:49:48"}
+{"level":"info","message":"🍔 Burgers API Server is running on port 3000","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"🔍 GraphQL Playground: http://localhost:3000/graphql","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"❤️  Health Check: http://localhost:3000/health","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"🌍 Environment: development","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"Mongoose connected to MongoDB","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"burgers-api","timestamp":"2025-09-25 20:53:15"}
